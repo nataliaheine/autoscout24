@@ -3,7 +3,3 @@ pandas
 seaborn
 numpy
 scikit-learn
-
-model_try
-info
-analysis
