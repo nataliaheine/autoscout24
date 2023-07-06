@@ -3,7 +3,7 @@ import numpy as np
 from joblib import load
 
 # Laden des Modells
-model = load("auto_price.joblib")
+model = load("model.joblib")
 
 # Eingabefunktion
 def get_user_input():
