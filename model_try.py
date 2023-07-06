@@ -1,10 +1,9 @@
 import streamlit as st
 import numpy as np
-import pickle
+from joblib import load
 
 # Laden des Modells
-with open("auto_price.pkl", "rb") as file:
-    model = pickle.load(file)
+model = load("auto_price.joblib")
 
 # Eingabefunktion
 def get_user_input():
