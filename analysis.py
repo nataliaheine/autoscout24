@@ -23,7 +23,9 @@ def start():
 
     st.header("Existieren Korrelationen zwischen den (numerischen) Features?")
     fig = plt.figure()
-    sns.heatmap(df.corr(), annot=True)
+    numeric_df = df.select_dtypes(include=[np.number])
+    correlation_matrix = numeric_df.corr()
+    sns.heatmap(correlation_matrix, annot=True)
     st.pyplot(fig)
 
 
