@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-from joblib import load
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 
