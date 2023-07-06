@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 from joblib import load
 import pickle
+from sklearn.ensemble import RandomForestClassifier
 
 # Laden des Modells
 with open('auto_price.pkl', 'rb') as file:
