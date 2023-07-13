@@ -1,7 +1,7 @@
 import streamlit as st
 
 def start():
-    st.title("Projekt AutoScout24")
+    st.title("AutoScout24 Car Price Prediction")
 
     st.success("In diesem Projekt wurden die Daten von der Webseite 'AutoScout24' analysiert.  \n\nDas Dataset findet man unter folgendem [Link](https://www.kaggle.com/datasets/ander289386/cars-germany).")
             
